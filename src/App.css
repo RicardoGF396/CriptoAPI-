@@ -373,9 +373,19 @@ ul{
     margin-bottom: 1.5rem;
   }
 
+  .cardResult{
+    padding: 0 1rem;
+  }
+
 }
 
 @media (max-width:425px){
+
+  .variacion{
+    text-align: right;
+    width: 150px;
+  }
+
   .right-content{
     width: 95%;
   }

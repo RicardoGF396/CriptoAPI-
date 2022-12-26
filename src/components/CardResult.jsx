@@ -21,7 +21,7 @@ function CardResult( {data} ) {
             <h2 className="result-value">{PRICE} </h2>
             <p className="result-status"> {LASTUPDATE} </p>
           </div>
-          <div className="section-price">
+          <div className="section-price variacion">
             <p className="subtitle-card">Variación últimas 24 horas:</p>
             <p className="result-card">{CHANGEPCT24HOUR}</p>
           </div>
