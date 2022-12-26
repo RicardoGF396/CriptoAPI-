@@ -301,7 +301,17 @@ ul{
 
 /* MEDIA QUERYS */
 @media (max-width:1024px){
- 
+  
+  .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-mobile{
+    width: 100px;
+  }
+
   .app-content{
     grid-template-columns: 1fr;
   }
@@ -312,6 +322,10 @@ ul{
 
   .logo-mobile{
     display: block;
+  }
+
+  .header{
+    width: 100%;
   }
 
   .nav-mobile{

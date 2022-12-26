@@ -3,7 +3,7 @@ import circuit from './../assets/circuits_up.svg'
 
 function Header() {
   return (
-    <div>
+    <div className='header'>
         <img className='circuit-up' src={circuit} alt="circuit-up"/>
         <nav className='navbar'>
         <ul>
